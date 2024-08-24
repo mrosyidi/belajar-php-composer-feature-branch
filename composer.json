@@ -13,7 +13,15 @@
         "ProgrammerZamanNow\\": "src/"
       }
     },
+    "repositories" : [
+      {
+        "type": "vcs",
+        "url": "https://github.com/mrosyidi/belajar-php-composer-hello"
+      }
+    ],
     "require": {
+      "php": ">=8.0",
+      "osykunchen/belajar-php-composer-hello": "1.0.0",
       "monolog/monolog": "2.2.0"
     }
 }
